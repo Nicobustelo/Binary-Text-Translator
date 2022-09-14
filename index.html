@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Binary Translator</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" charset="utf-8" defer></script>
+	</head>
+	<body>
+		<h1>Binary Text Translator</h1>
+		<div class="calculator-container">
+			<div class="binary-to-text">
+				<p class="instructions">Insert your binary code here:</p>
+				<textarea
+					id="textarea1"
+					class="textarea"
+					placeholder="1001000 1101001 100001"
+				></textarea
+				><br />
+				<span id="text" class="translation">Hi!</span>
+				<span id="error"></span>
+			</div>
+			<br /><br />
+			<div class="text-to-binary">
+				<p class="instructions">Insert your text here:</p>
+				<textarea id="textarea2" class="textarea" placeholder="Hi!"></textarea
+				><br />
+				<span id="binary" class="translation">1001000 1101001 100001</span>
+			</div>
+		</div>
+	</body>
+</html>
